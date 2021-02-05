@@ -50,6 +50,7 @@ endif(WIN32)
 #添加包
 add_source(${PROJECT_NAME} ./src)
 add_source(${PROJECT_NAME} ../../source/comm)
+add_source(utility ../../source/utility)
 
 #添加工程
 add_executable(${PROJECT_NAME} ${all_file})
